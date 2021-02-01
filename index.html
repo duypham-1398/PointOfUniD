@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Tính điểm DH khối D </h2>
+        <table>
+            <tr>
+                <td> <span> Môn Toán</span> </td>
+                <td>
+                    <input type="text" id="math">
+                </td>
+            </tr>
+            <tr>
+                <td> <span> Môn Văn</span>  </td>
+                <td>
+                <input type="text" id="literature">
+                </td>
+            </tr>
+            <tr>
+                <td><span> Môn Anh</span></td>
+                <td>
+                    <input type="text" id="eng"> <br>
+                </td>
+            </tr>
+            <tr>
+                <td><span> Khu vực </span></td>
+                <td>
+                    <select name="area" id="area">
+                        <option value="KV1">KV1</option>
+                        <option value="KV2">KV2</option>
+                        <option value="KV2-NT">KV2-NT</option>
+                        <option value="KV3">KV3</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="OutPoint()">Tính điểm</button>
+                </td>
+            </tr>
+        </table>
+        <p id="result"></p>
+    </div>
+    
+    <script src="my.js"></script>
+</body>
+</html>
